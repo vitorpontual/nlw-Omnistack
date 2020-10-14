@@ -5,6 +5,7 @@
     position: relative;
     display: flex;
 
+    
 
 }
 
@@ -13,6 +14,7 @@
     background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
     padding: 80px;
 
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -27,6 +29,12 @@
 #page-map aside p {
     line-height: 28px;
     margin-top: 24px;
+}
+
+#page-map aside footer {
+    display: flex;
+    flex-direction: column;
+    list-style: 24px;
 }
 
 #page-map aside footer strong {
@@ -64,6 +72,7 @@
     background: rgba( 255,255,255,0.8);
     box-shadow: none;
     border-radius: 20px;
+    box-shadow: none;
 }
 
 #page-map .map-popup .leaflet-popup-content{

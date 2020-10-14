@@ -9,7 +9,6 @@ import '../styles/pages/create-orphanage.css';
 import Sidebar from "../components/Sidebar";
 import mapIcon from "../utils/mapIcon";
 import api from "../services/api";
-import Orphanage from "./Orphanage";
 
 
 export default function CreateOrphanage() {
