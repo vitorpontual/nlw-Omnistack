@@ -1,0 +1,139 @@
+#page-login {
+    width: 100vw;
+    height: 100vh;
+
+    position: relative;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+#page-login aside {
+    width: 520px;
+    height: 100vh;
+    background: #fff;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+}
+
+#page-login aside form h1 {
+    width: 360px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 34px;
+    color: #5C8599;
+    margin-bottom: 42px;
+    
+}
+
+#page-login aside form .input-block + .input-block {
+    margin-top: 24px
+}
+
+#page-login aside form .input-block label {
+  font-size: 16px;
+  color: #8FA7B3;
+  font-weight: 600;
+  line-height: 21.82px;
+}
+
+#page-login aside form .input-block input {
+  width: 100%;
+  height: 64px;
+  background: #F5F8FA;
+  border: 1px solid #D3E2E5;
+  border-radius: 20px;
+  outline: none;
+  color: #5C8599;
+}
+
+#page-login aside form .input-block + .input-block {
+    margin-bottom: 16px;
+
+}
+
+#page-login aside form .checkbox{
+    display: flex;
+    justify-content: space-between;
+  
+}
+
+#page-login aside form .checkbox-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#page-login aside form .checkbox-input input {
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    background: #F5F8FA;
+    border: 1px solid #D3E2E5;
+    border-radius: 20px;
+    outline: none;
+    color: #5C8599;
+
+}
+
+#page-login aside form .checkbox-input label {
+  font-size: 16px;
+  color: #8FA7B3;
+  font-weight: 600;
+  line-height: 21.82px;
+}
+
+#page-login aside form .checkbox a {
+    color: #8FA7B3;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height:22px;
+}
+
+#page-login aside form .login-button {
+    width: 100%;
+    height: 64px;
+    text-decoration: none;
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 22px;
+
+    color: #fff;
+    background-color: #37C77F;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+
+    background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);;
+}
+
+main .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .location {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 120px ;
+}

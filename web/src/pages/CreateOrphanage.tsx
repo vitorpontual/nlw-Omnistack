@@ -123,7 +123,7 @@ export default function CreateOrphanage() {
 
             <div className="input-block">
               <label htmlFor="about">Sobre <span>Máximo de 300 caracteres</span></label>
-              <textarea id="name" maxLength={300} value={about} onChange={event => setAbout(event.target.value)} />
+              <textarea id="about" maxLength={300} value={about} onChange={event => setAbout(event.target.value)} />
             </div>
 
             <div className="input-block">
