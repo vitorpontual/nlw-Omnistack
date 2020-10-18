@@ -4,38 +4,26 @@ import { Link } from 'react-router-dom';
 
 import Img1 from '../../images/logotipo.svg'
 
-import '../../styles/pages/login.css'
+import '../../styles/pages/forgetpassword.css'
 
 function LoginPage() {
     return (
-        <div id="page-login">
+        <div id="page-forget">
             <aside>
-                <form action="/dashboard" className="login-form">
-                    <h1>Fazer Login</h1>
+                <form action="/dashboard" className="forget-form">
+                    <h1>Esqueci a senha</h1>
+                    <p>Sua redefinição de senha será enviada
+                        para o e-mail cadastrado.
+                    </p>
                     <div className="input-block">
                         <label htmlFor="email">E-mail</label>
                         <input type="email" name="email" id="email" />
                     </div>
+      
 
-                    <div className="input-block">
-                        <label htmlFor="password">Senha</label>
-                        <input type="password" name="password" id="password" />
-                    </div>
-
-                    <div className="checkbox">
-                        <div className="checkbox-input">
-                            <input type="checkbox" name="remeber" id="remember" />
-                            <label htmlFor="remember">Lembrar me</label>
-                        </div>
-                        <Link
-                            to='/forget-password' className='forget-password'>
-                            Esqueci minha senha
-                        </Link>
-                    </div>
-
-
-                    <Link to='#' className='login-button'>Entrar</Link>
+                    <Link to='#' className='forget-button'>Enviar</Link>
                 </form>
+
                     <Link to='/app' className='back-app'>
                         <FiArrowLeft size={24} color="#15C3D6" />
                     </Link>
