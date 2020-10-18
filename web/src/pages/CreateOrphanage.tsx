@@ -66,7 +66,7 @@ export default function CreateOrphanage() {
     data.append('longitude', String(longitude));
     data.append('instructions', instructions)
     data.append('opening_hours', opening_hours);
-    data.append('open_on_weekeds', String(open_on_weekends));
+    data.append('open_on_weekends', String(open_on_weekends));
 
     images.forEach(image => {
       data.append('images', image);

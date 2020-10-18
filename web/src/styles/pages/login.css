@@ -117,7 +117,7 @@
     background-color: #37C77F;
 }
 
-main {
+#page-login main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -126,14 +126,14 @@ main {
     background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);;
 }
 
-main .logo {
+#page-login main .logo {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
 }
 
-main .location {
+#apge-login main .location {
     display: flex;
     flex-direction: column;
     justify-content: center;

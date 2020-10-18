@@ -25,6 +25,8 @@ function Routes(){
             <Route path='/login-happy' component={LoginPage} /> 
             <Route path='/forget-password' component={ForgetPage} />
             <Route path='/redefinition' component={RedefinitionPage} /> 
+
+
         </Switch>
         </BrowserRouter>
     );
